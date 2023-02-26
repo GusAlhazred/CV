@@ -13,27 +13,38 @@ body{
 }
 
 header {
-    background-image: linear-gradient(to top, #33333331, #333) ;
+    background-image: linear-gradient(to top, #33333300, #333) ;
     z-index: 3;
 }
 
+header img{
+    height: auto;
+    width: 20rem;
+    object-fit:none;
+    object-position: 54% 50%;
+
+    border-radius: 10px;
+}
 header .titulo{
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
 }
 header .subtitulo{
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
+    text-align: center;
 }
 
 aside{
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin-right: .3rem;
     background-color: #3333338a;
+    border-radius: 10px;
 
     position: relative;
-    top: -1rem;
+    top: -3rem;
     z-index: -11;
 }
 
@@ -44,4 +55,8 @@ aside{
     border-radius: 10px;
     text-align: center;
     background-color: #3333338a;
+}
+
+.notaAlPie{
+    font-size: 0.9rem;
 }
