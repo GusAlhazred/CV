@@ -51,12 +51,21 @@ aside{
 .elementosAside{
     padding: .5rem;
     margin: 0.2rem;
-    border: #eee solid .1rem;
-    border-radius: 10px;
     text-align: center;
+}
+.fondoColor{
+    border-radius: 10px;
+    border: #eee solid .1rem;
     background-color: #3333338a;
 }
 
 .notaAlPie{
     font-size: 0.9rem;
+}
+
+.botonEnviar{
+    margin: 1rem;
+    padding: 0.3rem;
+    background-color: #404;
+    max-width: 5rem;
 }

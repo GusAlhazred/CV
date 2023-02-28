@@ -64,21 +64,21 @@
         <aside class="">
             <section>
                 <h2>Idiomas</h2>
-                <p class="elementosAside">Ingles Tecnico: Intermedio</p>
+                <p class="elementosAside fondoColor">Ingles Tecnico: Intermedio</p>
             </section>
             <section>
                 <h2>Educacion</h2>
-                <article class="elementosAside">
+                <article class="elementosAside fondoColor">
                     <p>Curso. JavaScript</p>
                     <p>Julio 2022 - Agosto 2022</p>
                     <p>Coderhouse</p>
                 </article>
-                <article class="elementosAside">
+                <article class="elementosAside fondoColor">
                     <p>Curso. Desarrollo Web</p>
                     <p>Marzo 2022 - Mayo 2022</p>
                     <p>Coderhouse</p>
                 </article>
-                <article class="elementosAside">
+                <article class="elementosAside fondoColor">
                     <p>Terceario. Tecnico Analista de Sistemas</p>
                     <p>Marzo 2013 - Mayo 2014</p>
                     <p>Instituto Superior de Formación Técnica N° 172</p>
@@ -89,10 +89,30 @@
                 <p class="elementosAside">Pascal, Delphi, .net, C, MySQL, Node.Js, Arduino, Figma</p>
             </section>
         </aside>
-        
     </main>
-    <footer class="container">
+    <footer class="d-flex flex-column fondoColor m-3 align-items-center">
         <h2>Contactos</h2>
+        <form action="" class="d-flex flex-column fondoColor p-3 align-items-center">
+            <h3>Dejame tus datos!</h3>
+            <label for="">Mail<input type="text" class="email"></label>
+            <label for="">Tel. <input type="text" class="tel"></label>
+            <input type="button" value="Enviar!" class="botonEnviar">
+        </form>
+        <h3>Mis redes</h3>
+        <section>
+            <article class="row">
+                <div class="col">
+                    <p>GitHub</p>
+                </div>
+                <div class="col">
+                    <p>Linkedin</p>
+                </div>
+                <div class="col">
+                    <p>Whatsapp</p>
+                </div>
+            </article>
+        </section>
     </footer>
+    <script src="./scripts/validacionCampos.js"></script>
 </body>
 </html>
